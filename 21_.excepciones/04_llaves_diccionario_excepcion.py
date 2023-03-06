@@ -18,7 +18,10 @@ except KeyError as e:
 
 print("Fin del Programa.")
 
+# Uso del metodo get()
 
+version = versiones.get('java', '1.0.0')
+print(f'La version de {lenguajes} es {version}')
 
 
 
