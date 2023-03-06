@@ -25,12 +25,12 @@ def sumar(*valores):
         
     return suma
 
-resultado = sumar(1)
+resultado = sumar(1) #cantidad de argumentos que se especifico con *valores
 print(f'El resultado de la suma es igual: {resultado}')
 
-resultado = sumar(1, 2)
+resultado = sumar(1, 2) #cantidad de argumentos que se especifico con *valores
 print(f'El resultado de la suma es igual: {resultado}')
 
-resultado = sumar(1, 2, 3)
+resultado = sumar(1, 2, 3) #cantidad de argumentos que se especifico con *valores
 print(f'El resultado de la suma es igual: {resultado}')
 
