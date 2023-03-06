@@ -76,6 +76,30 @@ b = resultado[1]
 print('Valores de las variables `x` e `y` despues del intercambio:')
 print(f'x = {x} - y = {b}')
 
+# 5. Uso de funcionalidad que provee en su defecto (incorporado) el lenguaje de programacion:
+print('Uso de funcionalidad que provee en su defecto (incorporado) el lenguaje de programacion:')
+
+x = 2
+y = 3
+
+resultado = sumar(2, 3)
+print(f'La suma de {x} y {y} es igual a: {resultado}')
+
+print('\n\nValores de las variables `x` e `y` despues del intercambio:')
+print(f'x = {x} - y = {y}')
+
+x, y = y, x
+
+print('Valores de las variables `x` e `y` despues del intercambio:')
+print(f'x = {x} - y = {y}')
+
+
+
+
+
+
+
+
 
 
 
