@@ -14,7 +14,7 @@ try:
 
     print(f'La version de {lenguajes} es {version}')
 except KeyError as e:
-    print(f'ERROR: {e}')
+    print('ERROR: e')
 
 print("Fin del Programa.")
 

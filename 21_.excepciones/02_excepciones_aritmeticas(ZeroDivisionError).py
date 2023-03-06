@@ -24,7 +24,7 @@ try:
 
     print(f'El resultado de la division es: {division}')
 except ZeroDivisionError as e:
-    print(f'ERROR: {e}')
+    print('ERROR:', e)
     print('MENSAJE: Intento de division entre cero.')
 
 

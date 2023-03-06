@@ -16,7 +16,7 @@ try:
     print('Cantidad', computador.cantidad)
 except AttributeError as e:
     print('Se esta tratando de acceder a una propiedad/atributo inexistente')
-    print(f"ERROR", {e})
+    print("ERROR", e)
 
 
 

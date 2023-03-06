@@ -8,7 +8,7 @@ try:
     print(f'El tipo de dato de la variable numero es: {type(numero)}')
 
 except ValueError as e:
-    print(f'ERROR: {e}\n')
+    print('ERROR:\n', e)
 
 
 print('El programa ha terminado\n')

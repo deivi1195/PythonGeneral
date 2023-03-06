@@ -9,7 +9,7 @@ try:
         for l in f.readlines():
             print(l)
 except FileNotFoundError as e:
-    print(f'ERROR: ', {e})
+    print('ERROR: ', e)
     
 
 
