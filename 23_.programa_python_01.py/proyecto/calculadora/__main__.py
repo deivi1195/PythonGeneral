@@ -1,4 +1,7 @@
-from funciones_aritmeticas import sumar, restar, multiplicar, dividir
+from .funciones_aritmeticas import sumar, restar, multiplicar, dividir
+#para compilarlo desde la consola se una el punto delante del modulo (dunciones aritemticas en este caso)
+#se accede al directorio donde se encuentra el programa
+# y se escribe "python -m 'nombre del programa'"
 
 def menu():
     print('1. Sumar')
@@ -14,7 +17,7 @@ def main():
             try:
                 opcion = int(input('Escriba la opcion a ejecutar: '))
                 break
-            except TypeError as e:
+            except ValueError as e:
                 print("ERROR: Ha digitado un valor invalido")
         #salto de linea
         print()
@@ -27,13 +30,13 @@ def main():
                 try:
                     numero_1 = int(input('Escriba el numero 1: '))
                     break
-                except TypeError as e:
+                except ValueError as e:
                     print("ERROR: Ha digitado un valor invalido")   
             while True:
                 try:
                     numero_2 = int(input('Escriba el numero 2: '))
                     break
-                except TypeError as e:
+                except ValueError as e:
                     print("ERROR: Ha digitado un valor invalido") 
         print()
         
@@ -58,6 +61,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-
+#
 
 
