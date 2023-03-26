@@ -169,6 +169,30 @@ def main():
     
     print('Encendido?: ', 'Si' if auto_formula1.estado else 'No')
     
+    
+    print()
+    
+    #iterar por cada uno de los objetos carro que se crearon:
+    print('iterar por cada uno de los objetos carro que se crearon:')
+    
+    carros = [camion_carga, deportivo_lujo, volqueta_carga, auto_formula1]
+    
+    for c in carros:
+        print(f'Placa: {c.placa}')
+        print(f'Marca: {c.marca}')
+        print(f'Modelo: {c.modelo}')
+        print(f'Pais Procedencia: {c.pais_procedencia}')
+        print('Encendido?: ', 'Si' if c.estado else 'No')
+    
+        c. encender()
+        print('Encendido?: ', 'Si' if c.estado else 'No')
+        
+        c.acelerar()
+        c.frenar()
+        c.apagar()
+    
+    
+    
 
 if __name__ == '__main__':
     main()
