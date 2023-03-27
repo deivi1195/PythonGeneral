@@ -31,6 +31,20 @@ def main():
         
         print()
 
+    print()
+    
+    # Demostracion de sobreescritura de metodos
+    print('Demostracion de sobreescritura de metodos')
+
+    print(rectangulo_rojo)
+
+    print()
+    
+    print(circulo_verde)
+    
+    print()
+    
+    print(triangulo_negro)
 
 
 

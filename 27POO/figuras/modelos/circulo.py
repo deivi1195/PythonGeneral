@@ -15,7 +15,8 @@ class Circulo(Figura):
 
         return resultado
 
-
+    def __str__(self):
+        return f'Circulo -- {super().__str__()} - Radio: {self.radio}'
 
 
 

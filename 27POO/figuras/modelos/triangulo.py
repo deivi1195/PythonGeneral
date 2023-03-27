@@ -15,6 +15,7 @@ class Triangulo(Figura):
 
         return resultado
 
-
+    def __str__(self):
+        return f'Triangulo -- {super().__str__()} - Base: {self.base} - altura: {self.altura}'
 
 

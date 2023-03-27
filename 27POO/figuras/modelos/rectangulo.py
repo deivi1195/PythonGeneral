@@ -15,7 +15,8 @@ class Rectangulo(Figura):
         
         return resultado
 
-
+    def __str__(self):
+        return f'Rectangulo -- {super().__str__()} - Ancho: {self.ancho} - alto: {self.alto}'
 
 
 
