@@ -9,7 +9,8 @@ class Perro(Animal):
     def jugar(self):
         print('El perro esta jugando...')
         
-    
+    def hablar(self):
+        print('Guau!')
 
 
 
