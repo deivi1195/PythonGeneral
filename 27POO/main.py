@@ -191,7 +191,7 @@ def main():
         c.frenar()
         c.apagar()
     
-    
+        print()
     
 
 if __name__ == '__main__':
