@@ -1,0 +1,10 @@
+Ejercicio
+
+El el proyecto 0 se construyo un sistema de inventario de dispositivos electronicos para la empresa dispositivos s.a.s.
+
+Cambios a realizar sobre el proyecto 0:
+
+- Aplicar los conceptos de programacion orientada a obejtos
+- Crear diagramas de clases con UML
+- Crear archivos para cada clase identificada
+- Adaptar los archivos que sean necesarios

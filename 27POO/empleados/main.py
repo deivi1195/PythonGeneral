@@ -22,21 +22,7 @@ def main():
         print(f'Salario: {e.calcular_salario()}')
     
     
-    
-    
-    
-    
-    
+
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
-
-
